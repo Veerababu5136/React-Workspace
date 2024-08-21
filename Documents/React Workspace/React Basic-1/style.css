@@ -1,0 +1,45 @@
+ul{
+
+    list-style-type: none;
+    background-color: black;
+    color: whitesmoke;
+    height: 4vh;
+    overflow: hidden;
+margin: -10px;
+padding: 0px;
+
+}
+
+ul li
+{
+    display: inline;
+    border: 1px solid black;
+    line-height: 30px;
+
+   margin-left:120px;
+
+   background-color: rgb(43, 165, 226);
+}
+ul li{
+    padding: 40px 30px;
+}
+
+
+ul .logout
+{
+    background-color: red;
+    padding: 50px;
+    transform: skewX(100);
+}
+.logout:hover{
+    background-color: yellow;
+    color:black;
+
+    
+}
+
+ul li:hover
+{
+    background-color: aqua;
+}
+
