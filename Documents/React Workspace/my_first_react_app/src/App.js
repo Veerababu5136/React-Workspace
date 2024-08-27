@@ -16,6 +16,11 @@ import ToDoProject from './Projects/ToDoList/ToDoListComponent'
 
 import Calculator from './Projects/Calculator app/CalculatorComponent'
 
+import FakeApiComponent from './Projects/FakeApi/FakeApiComponent'
+
+import MenuBar from './Components/MenuBar/MenuBar'
+
+
 function App() 
 {
 
@@ -40,7 +45,11 @@ function App()
     
     {/*<ToDoProject></ToDoProject> */}
 
-    <Calculator></Calculator>
+    {/*<Calculator></Calculator>*/}
+
+    {/*<FakeApiComponent></FakeApiComponent>*/}
+
+    <MenuBar></MenuBar>
 
    </div>
   )
