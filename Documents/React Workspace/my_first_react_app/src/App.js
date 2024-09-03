@@ -20,6 +20,8 @@ import FakeApiComponent from './Projects/FakeApi/FakeApiComponent'
 
 import MenuBar from './Components/MenuBar/MenuBar'
 
+import MenuBar2 from './Components/MenuBar2/MenuBar'
+
 
 function App() 
 {
@@ -49,7 +51,9 @@ function App()
 
     {/*<FakeApiComponent></FakeApiComponent>*/}
 
-    <MenuBar></MenuBar>
+    {/*<MenuBar></MenuBar>*/}
+
+    <MenuBar2></MenuBar2>
 
    </div>
   )
