@@ -22,6 +22,7 @@ import MenuBar from './Components/MenuBar/MenuBar'
 
 import MenuBar2 from './Components/MenuBar2/MenuBar'
 
+import Form from './Components/FormHandlingValidation/Form'
 
 function App() 
 {
@@ -54,6 +55,8 @@ function App()
     {/*<MenuBar></MenuBar>*/}
 
     {/*<MenuBar2></MenuBar2>*/}
+
+    <Form></Form>
 
    </div>
   )
