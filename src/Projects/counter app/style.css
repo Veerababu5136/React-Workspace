@@ -1,0 +1,22 @@
+h1
+{
+    text-align: center;
+}
+
+
+#plus
+{
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+#minus
+{
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    cursor: pointer;
+}
