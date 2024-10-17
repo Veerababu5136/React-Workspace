@@ -24,6 +24,8 @@ import MenuBar2 from './Components/MenuBar2/MenuBar'
 
 import Form from './Components/FormHandlingValidation/Form'
 
+import FetchApi from './Components/ApiIntegration/UsingFetch/Api'
+
 function App() 
 {
 
@@ -56,7 +58,9 @@ function App()
 
     {/*<MenuBar2></MenuBar2>*/}
 
-    <Form></Form>
+    {/*<Form></Form>*/}
+
+    <FetchApi></FetchApi>
 
    </div>
   )
